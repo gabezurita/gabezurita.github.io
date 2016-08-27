@@ -248,7 +248,7 @@ a:focus {
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #42DCA3;
+  border: 1px solid #t;
   outline: none;
   color: black;
   background-color: #42DCA3;
