@@ -152,6 +152,10 @@ a:focus {
   .intro .intro-body .intro-text {
     font-size: 26px;
   }
+
+  .brand-heading {
+    color: red;
+  }
 }
 .btn-circle {
   width: 70px;
