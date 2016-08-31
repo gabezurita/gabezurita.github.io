@@ -4,7 +4,10 @@
   font-weight: bold
 }
 
-
-.bottom-buffer {
+.bottom-buffer-increase {
     margin-bottom: 20px;
+}
+
+.top-buffer-decrease {
+    margin-top: -50px;
 }
