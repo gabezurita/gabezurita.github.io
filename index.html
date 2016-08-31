@@ -21,12 +21,13 @@
 
     <!-- Theme CSS -->
     <link href="css/grayscale.min.css" rel="stylesheet">
+    <link href="css/site-specific.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
 </head>
@@ -49,18 +50,11 @@
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#projects">Projects</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
+                    <li class="hidden"><a href="#page-top"></a></li>
+                    <li><a class="page-scroll" href="#about">About</a></li>
+                    <li><a class="page-scroll" href="#skills">Skills</a></li>
+                    <li><a class="page-scroll" href="#projects">Projects</a></li>
+                    <li><a class="page-scroll" href="#contact">Contact</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -76,19 +70,15 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
 
-                        <p>
-
-                        </p>
+                        <p></p>
 
                         <h1 class="brand-heading">Hi, I'm Gabriel Zurita</h1>
                         <p class="intro-text">...but feel free to call me Gabo.
                         </p>
 
-                        <p>I'm a Chilean-American web developer starting a life in Washington, DC.
-                        </p>
+                        <p>I'm a Chilean-American web developer starting a life in Washington, DC.</p>
 
-                        <p>Welcome to my site!
-                        </p>
+                        <p>Welcome to my site!</p>
 
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
@@ -109,10 +99,71 @@
                     The background above is <a href="https://www.flickr.com/photos/gabezurita/7093892073/" target="_blank">  a photo I took</a> of a friend snowboarding near the Cordón Caulle volcanic eruption outside my hometown of Puerto Montt, Chile. That was four years ago. I've since moved to Chicago to work in non-profits, graduated from <a href="http://devbootcamp.com/learn-ruby-javascript/overview/" target="_blank">Dev Bootcamp</a>, and moved to DC to continue my software development path. In Dev Bootcamp, I spent 6 intense, immersive months studying back-end and front-end languages and frameworks. We applied agile and test-driven development practices as we pair programmed projects together throughout the course.
                 </p>
 
-
-
-
                 <p class="text-justify">The experience furthered my love for deeply analyzing problems and solving them via a mixture of team-work, logic and imagination. As the next step in this journey, I am eager to contribute to a team in which I can continue to grow as a programmer while simultaneously building meaningful, delightful software.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="content-section text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Skills</h2>
+                </div>
+            </div>
+            <div class="row text-center container">
+
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-html5 fa-stack-1x"></i>
+                    </span>
+
+                    <h4 class="service-heading">Front End</h4>
+
+                    <ul class="list-group text-justify skills">
+                        <li class="list-group-item list-group-item-info">HTML</li>
+                        <li class="list-group-item list-group-item-info">CSS</li>
+                        <li class="list-group-item list-group-item-info">Javascript</li>
+                        <li class="list-group-item list-group-item-info">jQuery</li>
+                        <li class="list-group-item list-group-item-info">AJAX</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-database fa-stack-1x fa-inverse"></i>
+                    </span>
+
+                    <h4 class="service-heading">Back End</h4>
+                    <ul class="list-group text-justify skills">
+                        <li class="list-group-item list-group-item-info">Ruby</li>
+                        <li class="list-group-item list-group-item-info">Rails</li>
+                        <li class="list-group-item list-group-item-info">Sinatra</li>
+                        <li class="list-group-item list-group-item-info">PostgreSQL</li>
+                        <li class="list-group-item list-group-item-info">SQLite</li>
+                        <li class="list-group-item list-group-item-info">RSpec</li>
+                        <li class="list-group-item list-group-item-info">Jasmine</li>
+                        <li class="list-group-item list-group-item-info">Capybara</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span>
+
+                    <h4 class="service-heading">Methodologies</h4>
+                    <ul class="list-group text-justify skills">
+                        <li class="list-group-item list-group-item-info">Test Driven Development</li>
+                        <li class="list-group-item list-group-item-info">Agile Development</li>
+                        <li class="list-group-item list-group-item-info">Object-Oriented Design</li>
+                        <li class="list-group-item list-group-item-info">Thoughtbot Git/GitHub Workflow</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
@@ -172,35 +223,35 @@
     </section>
 
     <footer>
-    <div class="container text-center">
-        <div class="row">
-            <div class="col-md-4">
-                <span class="copyright">Copyright &copy; Gabriel Zurita 2016</span>
-            </div>
-            <div class="col-md-4">
-                <ul class="list-inline social-buttons">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Gabriel Zurita 2016</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
 
-                    <li><a href="https://github.com/gabezurita" target="_blank"><i class="fa fa-github"></i></a>
-                    </li>
+                        <li><a href="https://github.com/gabezurita" target="_blank"><i class="fa fa-github"></i></a>
+                        </li>
 
-                    <li><a href="https://www.linkedin.com/in/gabezurita" target="_blank"><i class="fa fa-linkedin"></i></a>
-                    </li>
+                        <li><a href="https://www.linkedin.com/in/gabezurita" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        </li>
 
-                    <li><a href="https://twitter.com/gabezurita" target="_blank"><i class="fa fa-twitter"></i></a>
-                    </li>
+                        <li><a href="https://twitter.com/gabezurita" target="_blank"><i class="fa fa-twitter"></i></a>
+                        </li>
 
-                    <li><a href="https://www.flickr.com/gabezurita" target="_blank"><i class="fa fa-flickr"></i></a>
-                    </li>
+                        <li><a href="https://www.flickr.com/gabezurita" target="_blank"><i class="fa fa-flickr"></i></a>
+                        </li>
 
-                    <li><a href="https://www.facebook.com/gzurita" target="_blank"><i class="fa fa-facebook"></i></a>
-                    </li>
+                        <li><a href="https://www.facebook.com/gzurita" target="_blank"><i class="fa fa-facebook"></i></a>
+                        </li>
 
-                </ul>
+                    </ul>
 
+                </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.js"></script>
