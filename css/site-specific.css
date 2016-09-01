@@ -12,3 +12,7 @@
 .top-buffer-decrease {
     margin-top: -50px;
 }
+
+li.borderless {
+  border-top: 0 none;
+}
