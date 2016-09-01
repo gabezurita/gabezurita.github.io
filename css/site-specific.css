@@ -16,3 +16,8 @@
 li.borderless {
   border-top: 0 none;
 }
+
+.decrease-icon-size {
+  font-size: 0.3em;
+  vertical-align: middle;
+}
