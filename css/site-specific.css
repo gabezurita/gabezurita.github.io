@@ -9,6 +9,14 @@ li.borderless {
   border-top: 0 none;
 }
 
+.end-page-increase-padding-bottom {
+  padding-bottom: 250px;
+}
+
+.about-me-increase-padding-bottom {
+  padding-bottom: 100px;
+}
+
 .decrease-icon-size {
   font-size: 0.3em;
   vertical-align: middle;
