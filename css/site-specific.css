@@ -5,6 +5,13 @@
   font-weight: bold
 }
 
+.project-heading {
+  color: #274970;
+  font-size: 2.0em;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bold
+}
+
 li.borderless {
   border-top: 0 none;
 }
