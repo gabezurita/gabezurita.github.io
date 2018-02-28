@@ -6,10 +6,14 @@
 }
 
 .project-heading {
-  color: #274970;
+  color: red;
   font-size: 2.0em;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: bold
+}
+
+.jiralicious {
+  max-height: 2.0em;
 }
 
 li.borderless {
