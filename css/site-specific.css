@@ -6,14 +6,10 @@
 }
 
 .project-heading {
-  color: grey;
-  font-size: 2.0em;
+  color: white;
+  font-size: 1.6em;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: bold
-}
-
-.jiralicious {
-  max-height: 2.0em;
 }
 
 li.borderless {
@@ -21,14 +17,50 @@ li.borderless {
 }
 
 .end-page-increase-padding-bottom {
-  padding-bottom: 250px;
+  padding-bottom: 380px;
 }
 
-.about-me-increase-padding-bottom {
-  padding-bottom: 100px;
+.increase-padding-bottom {
+  padding-bottom: 200px;
 }
 
 .decrease-icon-size {
   font-size: 0.3em;
   vertical-align: middle;
+}
+
+.percent-decrease-icon-size {
+  font-size: 45%;
+  vertical-align: middle;
+}
+
+a {
+  color: #40C0C0;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #790CE8;
+}
+
+.colorize-green {
+  color: green;
+}
+
+.colorize-blue {
+  color: #80C0FF;
+}
+
+.project-icon {
+  height: 1.2em;
+  width: auto;
+}
+
+.project-logo {
+  height: 5.0em;
+  width: auto;
 }

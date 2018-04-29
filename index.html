@@ -90,6 +90,7 @@
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
+        <br>
     </nav>
 
     <!-- Intro Header -->
@@ -99,9 +100,6 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-
-                        <br>
-
                         <h1 class="brand-heading">Hi, I'm Gabriel Zurita</h1>
                         <p class="intro-text">...but feel free to call me Gabo.
                         </p>
@@ -116,7 +114,7 @@
     </header>
 
     <!-- About Section -->
-    <section id="about" class="container content-section text-center about-me-increase-padding-bottom">
+    <section id="about" class="container content-section text-center increase-padding-bottom">
         <div class="row container">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About Me</h2>
@@ -136,21 +134,27 @@
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>My Projects</h2>
-                    <div>
-
-                        <!-- <a href="https://github.com/optoro/jira_reporting" target="_blank"> <img src="img/ruby_gem.png" class=" project-screenshot" alt="Ruby Gem Jira Reporting"> </a> -->
-
                         <div class="row">
                             <div class="col-lg-12">
-                                <a href="https://github.com/optoro?utf8=%E2%9C%93&q=&type=&language=" target="_blank"> <h4 class="project-heading"><img src="img/ruby_gem.png" class="jiralicious" alt="Ruby Gem Optoro Jira Cloud Automation and Reporting"> Jira Cloud Automation and Reporting</h4> </a>
+                                <a href="https://github.com/optoro?utf8=%E2%9C%93&q=&type=&language=" target="_blank"><h4 class="project-heading">            <img src="img/ruby_gem.png" class="project-icon" alt="Ruby Gem Optoro Jira Cloud Automation and Reporting"> Jira Cloud Automation and Reporting</h4> </a>
                             </div>
                         </div>
 
-                        <p class="text-left">Jira Cloud Automation and Reporting is a Ruby gem that is used by Optoro's tech teams to add time tracking functionality to Jira Cloud and automate various functions of Optoro's Platform Stability team. The gem uses the Jira API and various other gems (Jiralicous, Business Time) to update Jira issue custom fields with Service Level Agreement and time tracking data. This automation is used to send notifications to product managers, developers, issue watchers, and support personnel to help keep issues on track and to meet contractual SLAs. The data this gem produces is used to create Jira views for tech teams, to analyze tech team performance, and to create reports through scripts that inform stability and scaling decisions.</p>
+                        <p class="text-left">Jira Cloud Automation and Reporting is a Ruby gem that is used by Optoro's tech teams to add time tracking functionality to Jira Cloud and automate various functions of Optoro's Platform Stability team. The gem uses the Jira API and various other gems (Jiralicous, Business Time) to update Jira issue custom fields with Service Level Agreement and time tracking data. This automation is used to send notifications to product managers, developers, issue watchers, and support personnel to help keep issues on track and to meet contractual SLAs. Ultimately, the data this gem produces is used to create Jira views for tech teams, to analyze tech team performance, and create summary metrics reports for company executives through data mining scripts--all of which informs stability and scaling decisions.</p>
 
                         <br>
 
-                        <a href="http://global-host.herokuapp.com/" target="_blank"> <img src="img/global-host.png" class=" project-screenshot" alt="Global-Host Logo"> </a>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <a href="https://github.com/gabezurita/fin_friend" target="_blank"> <h4 class="project-heading"><i class="fa fa-money colorize-green"></i> FinFriend</h4> </a>
+                            </div>
+                        </div>
+
+                        <p class="text-left">This is a demo project where I practice fintech database modeling, following the MVC pattern with Rails, implementing data upkeep automation, unit testing, and using Ruby to perform financial calculations. FinFriend is a Rails app that allows users to create a financial loan account and all the functionality associated with having a loan. This is a work in progress that I'm using to learn more about fintech--any feedback is welcome! The app is <a href="https://finfriend.herokuapp.com/">live on Heroku</a> and the <a href="https://github.com/gabezurita/fin_friend" target="_blank">source code</a> is public</p>
+
+                        <br>
+
+                        <a href="http://global-host.herokuapp.com/" target="_blank"> <img src="img/global-host.png" class="project-logo" alt="Global-Host Logo"> </a>
 
                         <br>
 
@@ -160,7 +164,7 @@
 
                         <br>
 
-                        <a href="https://github.com/gabezurita/Killer-Tomatoes" target="_blank"> <img src="img/killer-tomatoes.png" class=" project-screenshot" alt="Killer-Tomatoes Logo"> </a>
+                        <a href="https://github.com/gabezurita/Killer-Tomatoes" target="_blank"> <img src="img/killer-tomatoes.png" class="project-logo" alt="Killer-Tomatoes Logo"> </a>
 
                         <br>
 
@@ -168,12 +172,13 @@
 
                         <br>
 
-                        <div class="col-lg-12 ">
-                            <h2 class="card-title"><i class="fa fa-book"> </i> Web Development Basics</h2>
-                            <p class="text-left">
-                                Since diving deeper into programming through Dev Bootcamp, I've received many a request from friends wanting to take a similar path. I've put together a guide to aid them in that journey, and I thought this was a good place to share it for anyone else that might need it. I've placed the guide into a github readme.md file so it could be updated by others. If you find any mistakes or better resources, please make a pull request and help me improve it. Here's my take on a <a href="https://github.com/gabezurita/web-development-basics" target="_blank">web development basics guide</a>!
+                        <div class="row">
+                            <div class="col-lg-12">
+                            <a href="https://github.com/gabezurita/web-development-basics" target="_blank">
+                            <h4 class="project-heading"><i class="fa fa-globe colorize-blue"></i><i class="fa fa-mouse-pointer percent-decrease-icon-size colorize-blue"></i> Web Dev Basics Guide</h4></a>
+                            <p class="text-left"> Since diving deeper into programming through Dev Bootcamp, I've received many a request from friends wanting to take a similar path. I've put together a guide to aid them in that journey, and I thought this was a good place to share it for anyone else that might need it. I've placed the guide into a github readme.md file so it could be updated by others. If you find any mistakes or better resources, please make a pull request and help me improve it. Here's my take on a <a href="https://github.com/gabezurita/web-development-basics" target="_blank">web development basics guide</a>!
                             </p>
-                        </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -181,7 +186,7 @@
             </section>
 
             <!-- Skills Section -->
-            <section id="skills" class="container content-section text-center">
+            <section id="skills" class="container content-section text-center increase-padding-bottom">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
@@ -244,22 +249,23 @@
             </section>
 
             <!-- Contact Section -->
-            <section id="contact" class="container content-section text-center end-page-increase-padding-bottom">
-                <div class="row container">
+            <section id="contact" class="container content-section text-center">
+                <div class="row container end-page-increase-padding-bottom">
                     <div class="col-lg-8 col-lg-offset-2">
-                        <h2><span class="fa-stack fa-2x">
-                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                        </span>Contact Me!</h2>
+                        <h2>Contact Me!</h2>
 
                         <p class="text-left">Feel free to <span><a href="mailto:gabezurita@gmail.com">email me</a></span> about web development work, photography, or to just say hello!
                         </p>
 
-                        <p class="text-left">If you need a copy of my resume, you can download it <a href="resume/Gabriel Zurita - Web Developer.pdf" target="_blank">here</a>.
+                        <p class="text-left">If you need a copy of my resume, you can download it <a href="resume/Gabriel Zurita - Web Developer.pdf" target="_blank">here</a>. Below are a few links to my github and a few other places in which I have a web presence.
                         </p>
                     </p>
 
                     <ul class="list-inline social-buttons">
+                        <li>
+                            <a href="mailto:gabezurita@gmail.com" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-envelope fa-fw"> </i> <span class="network-name"></span></a>
+                        </li>
+
                         <li>
                             <a href="https://github.com/gabezurita" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-github fa-fw"> </i> <span class="network-name"></span></a>
                         </li>
