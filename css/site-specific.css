@@ -6,7 +6,7 @@
 }
 
 .project-heading {
-  color: grey;
+  color: #80C0FF;
   font-size: 2.0em;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: bold
@@ -30,5 +30,10 @@ li.borderless {
 
 .decrease-icon-size {
   font-size: 0.3em;
+  vertical-align: middle;
+}
+
+.percent-decrease-icon-size {
+  font-size: 45%;
   vertical-align: middle;
 }
