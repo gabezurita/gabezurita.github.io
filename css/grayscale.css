@@ -236,8 +236,8 @@ p {
   border-radius: 0;
 }
 .btn-default {
-  border: 1px solid #61B6FF;
-  color: #61B6FF;
+  border: 1px solid #40C0C0;
+  color: #40C0C0;
   background-color: transparent;
 }
 .btn-default:hover,
@@ -245,7 +245,7 @@ p {
   border: 1px solid #t;
   outline: none;
   color: black;
-  background-color: #61B6FF;
+  background-color: #40C0C0;
 }
 ul.banner-social-buttons {
   margin-top: 0;
