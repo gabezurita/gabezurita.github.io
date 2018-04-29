@@ -6,7 +6,7 @@
 }
 
 .project-heading {
-  color: #80C0FF;
+  color: #40C0C0;
   font-size: 2.0em;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: bold
@@ -36,4 +36,16 @@ li.borderless {
 .percent-decrease-icon-size {
   font-size: 45%;
   vertical-align: middle;
+}
+
+a {
+  color: #40C0C0;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #790CE8;
 }

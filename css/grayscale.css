@@ -38,17 +38,7 @@ p {
     line-height: 1.6;
   }
 }
-a {
-  color: #61B6FF;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-a:hover,
-a:focus {
-  text-decoration: none;
-  color: #790CE8;
-}
+
 .light {
   font-weight: 400;
 }
