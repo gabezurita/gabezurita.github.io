@@ -153,10 +153,10 @@ a:focus {
   padding-right: 0px !important;
 }
 
-.portfolio-modal .modal-dialog {
+/* .portfolio-modal .modal-dialog {
   margin: 1rem;
   max-width: 100vw;
-}
+} */
 
 .portfolio-modal .modal-content {
   padding: 100px 0;
