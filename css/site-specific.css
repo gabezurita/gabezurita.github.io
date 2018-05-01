@@ -24,6 +24,10 @@ li.borderless {
   padding-bottom: 200px;
 }
 
+.increase-padding-top {
+  padding-top: 100px;
+}
+
 .decrease-icon-size {
   font-size: 0.3em;
   vertical-align: middle;
