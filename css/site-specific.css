@@ -265,3 +265,11 @@ a:focus {
 .mx-auto {
   margin-left: auto !important;
 }
+
+/* Fix modal width */
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: 750px;
+    margin: 30px auto;
+  }
+}
