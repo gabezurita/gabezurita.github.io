@@ -208,6 +208,8 @@ a:focus {
   height: 75px;
   cursor: pointer;
   background-color: transparent;
+  border: 2px solid #939393;
+  border-radius: 25px;
 }
 
 .portfolio-modal .close-modal:hover {
