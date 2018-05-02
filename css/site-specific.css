@@ -177,8 +177,9 @@ a:focus {
 }
 
 .portfolio-modal .modal-content p.item-intro {
-  font-size: 16px;
+  font-size: 19px;
   font-style: italic;
+  color: #939393;
   margin: 20px 0 30px;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -269,7 +270,16 @@ a:focus {
 /* Fix modal width */
 @media (min-width: 768px) {
   .modal-dialog {
-    width: 750px;
+    width: 780px;
     margin: 30px auto;
   }
+}
+
+.modal-sub-text {
+  	font-size: 1.3em;
+    color: #939393;
+}
+
+.go-back-btn {
+  border-radius: 55px;
 }
