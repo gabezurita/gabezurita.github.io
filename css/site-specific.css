@@ -59,8 +59,12 @@ a:focus {
   color: #80C0FF;
 }
 
+.colorize-red {
+  color: red;
+}
+
 .project-icon {
-  height: 1.2em;
+  max-height: 1.0em;
   width: auto;
 }
 
