@@ -304,3 +304,7 @@ ul {
 .navbar {
   max-height:10px !important
 }
+
+.center {
+    width: 54%;
+}
