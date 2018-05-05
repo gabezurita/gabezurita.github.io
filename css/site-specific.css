@@ -294,13 +294,9 @@ a:focus {
 }
 
 p {
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Alegreya Sans', 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 ul {
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Alegreya Sans', 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-
-/* .navbar {
-  max-height:10px !important
-} */
