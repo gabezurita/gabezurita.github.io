@@ -63,6 +63,10 @@ a:focus {
   color: red;
 }
 
+.colorize-white {
+  color: white;
+}
+
 .project-icon {
   max-height: 1.0em;
   width: auto;
@@ -299,4 +303,12 @@ p {
 
 ul {
   font-family: 'Alegreya Sans', 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.panel {
+  font-size: 1.4em;
+  font-weight: 400;
+  text-transform: none;
+  font-family: 'Alegreya Sans', 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #868e96;
 }
