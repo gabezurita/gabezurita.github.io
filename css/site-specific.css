@@ -305,10 +305,17 @@ ul {
   font-family: 'Alegreya Sans', 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+/* Panel CSS */
 .panel {
   font-size: 1.4em;
   font-weight: 400;
   text-transform: none;
   font-family: 'Alegreya Sans', 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #868e96;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 2em;
 }
