@@ -305,7 +305,7 @@ ul {
   font-family: 'Alegreya Sans', 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-/* Panel CSS */
+/* Skills Panel */
 .panel {
   font-size: 1.4em;
   font-weight: 400;
@@ -318,7 +318,8 @@ ul {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 0;
-  /* grid-template-columns: repeat(auto-fill,  minmax(100px, 1fr)) */
+  padding-left: 4%;
+}
 }
 
 @media (max-width: 800px) {
@@ -337,6 +338,20 @@ ul {
 
 @media (max-width: 400px) {
   .wrapper {
+    grid-template-columns: repeat(1, 1fr);;
+    grid-gap: 0;
+   }
+}
+
+.wrapper-methodologies {
+  padding-left: 4%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0;
+}
+
+@media (max-width: 700px) {
+  .wrapper-methodologies {
     grid-template-columns: repeat(1, 1fr);;
     grid-gap: 0;
    }
