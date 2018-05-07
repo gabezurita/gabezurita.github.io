@@ -356,3 +356,11 @@ ul {
     grid-gap: 0;
    }
 }
+
+.grayscale-icon {
+  filter: #868e96 !important; /* IE6-9 */
+  -webkit-filter: #grayscale(100%) !important; /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: #grayscale(100%) !important; /* Microsoft Edge and Firefox 35+ */
+  max-height: 1.0em !important;
+  width: auto !important;
+}
