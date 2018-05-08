@@ -29,7 +29,7 @@ li.borderless {
 }
 
 .decrease-icon-size {
-  font-size: 0.3em;
+  font-size: 1em;
   vertical-align: middle;
 }
 
@@ -354,6 +354,12 @@ ul {
   .wrapper-methodologies {
     grid-template-columns: repeat(1, 1fr);;
     grid-gap: 0;
+   }
+}
+
+@media (max-width: 400px) {
+  .panel-heading {
+    font-size: 0.9em !important;
    }
 }
 
