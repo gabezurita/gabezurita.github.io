@@ -245,6 +245,14 @@ a:focus {
   background-color: #212529;
 }
 
+.portfolio-float {
+  content: "";
+  display: inline-block;
+  float: right;
+  width: 10px;
+  bottom: 5px;
+  font-size: 1.8em;
+}
 
 /* Missing bootstrap classes */
 .img-fluid {
