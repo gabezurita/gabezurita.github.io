@@ -29,7 +29,7 @@ li.borderless {
 }
 
 .decrease-icon-size {
-  font-size: 0.3em;
+  font-size: 1em;
   vertical-align: middle;
 }
 
@@ -61,6 +61,10 @@ a:focus {
 
 .colorize-red {
   color: red;
+}
+
+.colorize-white {
+  color: white;
 }
 
 .project-icon {
@@ -299,4 +303,70 @@ p {
 
 ul {
   font-family: 'Alegreya Sans', 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Skills Panel */
+.panel {
+  font-size: 1.4em;
+  font-weight: 400;
+  text-transform: none;
+  font-family: 'Alegreya Sans', 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #868e96;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 0;
+  padding-left: 4%;
+}
+}
+
+@media (max-width: 800px) {
+  .wrapper {
+    grid-template-columns: repeat(3, 1fr);;
+    grid-gap: 0;
+   }
+}
+
+@media (max-width: 700px) {
+  .wrapper {
+    grid-template-columns: repeat(2, 1fr);;
+    grid-gap: 0;
+   }
+}
+
+@media (max-width: 400px) {
+  .wrapper {
+    grid-template-columns: repeat(1, 1fr);;
+    grid-gap: 0;
+   }
+}
+
+.wrapper-methodologies {
+  padding-left: 4%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0;
+}
+
+@media (max-width: 700px) {
+  .wrapper-methodologies {
+    grid-template-columns: repeat(1, 1fr);;
+    grid-gap: 0;
+   }
+}
+
+@media (max-width: 400px) {
+  .panel-heading {
+    font-size: 0.9em !important;
+   }
+}
+
+.grayscale-icon {
+  filter: #868e96 !important; /* IE6-9 */
+  -webkit-filter: #grayscale(100%) !important; /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: #grayscale(100%) !important; /* Microsoft Edge and Firefox 35+ */
+  max-height: 1.0em !important;
+  width: auto !important;
 }
