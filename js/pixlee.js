@@ -2839,10 +2839,6 @@
       }),
       k.provide('forceAttribution', function () {
         var e = document.createElement('a')
-        ;(e.id = 'powered_by_pixlee' + b()),
-          (e.target = 'blank'),
-          (e.href =
-            'https://www.pixlee.com/social-feed?utm_source=Powered%20by%20Pixlee&utm_medium=socialfeed_widget-main&utm_campaign=Powered%20by%20Pixlee')
         var t = function (e) {
           var i = e.target
           i && (i.removeEventListener('DOMNodeRemoved', t), i.parentNode.removeChild(i)),
